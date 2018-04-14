@@ -5007,3 +5007,265 @@ a.thumbnail {
     flex-direction: column; }
   .large-flex-dir-column-reverse {
     flex-direction: column-reverse; } }
+
+#one-page .hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("/img/hero-bkg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; }
+  #one-page .hero .menu {
+    top: 0px;
+    right: 0px; }
+  #one-page .hero .content span {
+    color: red; }
+  #one-page .hero .content h1 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase; }
+
+#one-page .zoom-card {
+  height: 249px;
+  width: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 10px;
+  position: relative; }
+  #one-page .zoom-card .zoom-card-background1 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("/img/feazel.png");
+    background-repeat: no-repeat;
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 0.35s ease-out;
+    -moz-transition: all 0.35s ease-out;
+    -o-transition: all 0.35s ease-out;
+    transition: all 0.35s ease-out; }
+    #one-page .zoom-card .zoom-card-background1:hover {
+      -ms-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      transform: scale(1.2);
+      -webkit-transition: all 3s ease-out;
+      -moz-transition: all 3s ease-out;
+      -o-transition: all 3s ease-out;
+      transition: all 3s ease-out; }
+    #one-page .zoom-card .zoom-card-background1:focus {
+      -ms-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      transform: scale(1.2);
+      -webkit-transition: all 3s ease-out;
+      -moz-transition: all 3s ease-out;
+      -o-transition: all 3s ease-out;
+      transition: all 3s ease-out; }
+  #one-page .zoom-card .zoom-card-background2 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("/img/Farm-to-truck.png");
+    background-repeat: no-repeat;
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 0.35s ease-out;
+    -moz-transition: all 0.35s ease-out;
+    -o-transition: all 0.35s ease-out;
+    transition: all 0.35s ease-out; }
+    #one-page .zoom-card .zoom-card-background2:hover {
+      -ms-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      transform: scale(1.2);
+      -webkit-transition: all 3s ease-out;
+      -moz-transition: all 3s ease-out;
+      -o-transition: all 3s ease-out;
+      transition: all 3s ease-out; }
+    #one-page .zoom-card .zoom-card-background2:focus {
+      -ms-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      transform: scale(1.2);
+      -webkit-transition: all 3s ease-out;
+      -moz-transition: all 3s ease-out;
+      -o-transition: all 3s ease-out;
+      transition: all 3s ease-out; }
+  #one-page .zoom-card .zoom-card-background3 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("/img/elite-media.png");
+    background-repeat: no-repeat;
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 0.35s ease-out;
+    -moz-transition: all 0.35s ease-out;
+    -o-transition: all 0.35s ease-out;
+    transition: all 0.35s ease-out; }
+    #one-page .zoom-card .zoom-card-background3:hover {
+      -ms-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      transform: scale(1.2);
+      -webkit-transition: all 3s ease-out;
+      -moz-transition: all 3s ease-out;
+      -o-transition: all 3s ease-out;
+      transition: all 3s ease-out; }
+    #one-page .zoom-card .zoom-card-background3:focus {
+      -ms-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      transform: scale(1.2);
+      -webkit-transition: all 3s ease-out;
+      -moz-transition: all 3s ease-out;
+      -o-transition: all 3s ease-out;
+      transition: all 3s ease-out; }
+  #one-page .zoom-card .zoom-card-background4 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("/img/marine-layer.png");
+    background-repeat: no-repeat;
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 0.35s ease-out;
+    -moz-transition: all 0.35s ease-out;
+    -o-transition: all 0.35s ease-out;
+    transition: all 0.35s ease-out; }
+    #one-page .zoom-card .zoom-card-background4:hover {
+      -ms-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      transform: scale(1.2);
+      -webkit-transition: all 3s ease-out;
+      -moz-transition: all 3s ease-out;
+      -o-transition: all 3s ease-out;
+      transition: all 3s ease-out; }
+    #one-page .zoom-card .zoom-card-background4:focus {
+      -ms-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      transform: scale(1.2);
+      -webkit-transition: all 3s ease-out;
+      -moz-transition: all 3s ease-out;
+      -o-transition: all 3s ease-out;
+      transition: all 3s ease-out; }
+  #one-page .zoom-card .zoom-card-background5 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("/img/pet-butler.png");
+    background-repeat: no-repeat;
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 0.35s ease-out;
+    -moz-transition: all 0.35s ease-out;
+    -o-transition: all 0.35s ease-out;
+    transition: all 0.35s ease-out; }
+    #one-page .zoom-card .zoom-card-background5:hover {
+      -ms-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      transform: scale(1.2);
+      -webkit-transition: all 3s ease-out;
+      -moz-transition: all 3s ease-out;
+      -o-transition: all 3s ease-out;
+      transition: all 3s ease-out; }
+    #one-page .zoom-card .zoom-card-background5:focus {
+      -ms-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      transform: scale(1.2);
+      -webkit-transition: all 3s ease-out;
+      -moz-transition: all 3s ease-out;
+      -o-transition: all 3s ease-out;
+      transition: all 3s ease-out; }
+  #one-page .zoom-card .zoom-card-background6 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("/img/spring-green.png");
+    background-repeat: no-repeat;
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 0.35s ease-out;
+    -moz-transition: all 0.35s ease-out;
+    -o-transition: all 0.35s ease-out;
+    transition: all 0.35s ease-out; }
+    #one-page .zoom-card .zoom-card-background6:hover {
+      -ms-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      transform: scale(1.2);
+      -webkit-transition: all 3s ease-out;
+      -moz-transition: all 3s ease-out;
+      -o-transition: all 3s ease-out;
+      transition: all 3s ease-out; }
+    #one-page .zoom-card .zoom-card-background6:focus {
+      -ms-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      transform: scale(1.2);
+      -webkit-transition: all 3s ease-out;
+      -moz-transition: all 3s ease-out;
+      -o-transition: all 3s ease-out;
+      transition: all 3s ease-out; }
+  #one-page .zoom-card .zoom-card-caption {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    background-color: #fff;
+    color: black;
+    padding: 15px 20px;
+    text-align: center; }
+    #one-page .zoom-card .zoom-card-caption a {
+      padding: 0px;
+      margin: 0px;
+      line-height: 1.5em;
+      color: black; }
+  #one-page .zoom-card .portfolio {
+    padding: 20px 0px;
+    background: black; }
