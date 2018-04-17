@@ -1,17 +1,22 @@
 $(document).ready(function() {
   // Handler for .ready() called.
   $(document).foundation();
+
+  //
+  var topbar = jQuery(".top-bar");
+	var headerScroll = "header-scrolled";
+	
+	jQuery(document).scroll( function() {
+		if(jQuery(this).scrollTop() > 30) {
+				
+		    topbar.addClass(headerScroll);
+
+		}
+		else {
+
+		    topbar.removeClass(headerScroll);
+								
+		}
+  });
 });
 
-$(document).ready(function(){
-  $(window).scroll(function(){
-  	var scroll = $(window).scrollTop();
-	  if (scroll > 300) {
-	    $(".top-bar").css("background-color" , "#333");
-	  }
-
-	  else{
-		  $(".black").css("background-color" , "rgba(0, 0, 0, .5)");  	
-	  }
-  })
-})

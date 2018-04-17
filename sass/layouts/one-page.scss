@@ -1,9 +1,10 @@
 #one-page{
+   font-family: 'Do Hyeon', sans-serif;
+
     .top-bar{
       // position: fixed;
       background-color: rgba(0, 0, 0, .5);
       .top-bar-left{
-        // background: rgba(0, 0, 0, .0);
       
       ul{
         background-color: transparent;
@@ -58,11 +59,13 @@
           padding: 20%; }
         span{
           color: red;
+          font-family: 'Do Hyeon', sans-serif;
         }
         h1{
             color: white;
             text-align: center;
             text-transform: uppercase;
+            font-family: 'Do Hyeon', sans-serif;
         }
   } 
   
@@ -73,29 +76,37 @@
   @include breakpoint (medium){
     padding: 15px 0px; }
 .bio-pic{
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 h2{
   color: red;
+  font-family: 'Do Hyeon', sans-serif;
 }
 }
  .top {
   background-color: black;
   @include breakpoint (medium){
+    padding: 15px 45px 0px 45px;
+  h2{
+    color: red;
+    padding-left: 45px;
+    font-family: 'Do Hyeon', sans-serif;
+  }
+}
+  p{
+    color:white;
+  @include breakpoint (medium){
   background-color: black;
   padding: 15px 45px 0px 45px;
-    h2{
-      color: red;
-    }
-    p{
-      color:white;
+    
     }
   }
 }
  .bottom{
   background-color: black;
   @include breakpoint (medium){
-  background-color: black;
   padding: 0px 45px 15px 45px;
   }
 }
@@ -383,6 +394,7 @@ h2{
     padding: 15px 0px; }
     h2{
       color: red;
+      font-family: 'Do Hyeon', sans-serif;
     }
 }
 

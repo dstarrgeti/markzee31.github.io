@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MZPortfolio</title>
   <link rel="stylesheet" type="text/css" href="./css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
 </head>
 <body>
 <!-- start of body -->
@@ -25,12 +26,12 @@
             </ul>
           </div>
           <div class="top-bar-right">
-           <ul class="dropdown menu" data-dropdown-menu>
+           <ul class="dropdown menu"  data-dropdown-menu>
               <li>
-                <a href="#bio">Nice to Meet You</a>
+                <a id="link-bio" href="#section-bio" data-smooth-scroll data-offset="64">Nice to Meet You</a>
               </li>
-              <li><a href="#top">My Work</a></li>
-              <li><a href="#contact">Holler</a></li>
+              <li><a id="link-portfolio" href="#section-top" data-smooth-scroll data-offset="64">My Work</a></li>
+              <li><a id="link-contact" href="#section-contact" data-smooth-scroll data-offset="64">Holler</a></li>
             </ul>
           </div>
         </div>      
@@ -40,9 +41,10 @@
           <h1>Hello, I'm <span>Mark Zeehandelar</span></h1> <br>
           <h1>I'm a front end developer</h1>
       </div>
+      
   </div>
-  <div class="grid-container bio">
-      <a name="bio"></a>
+  <div class="grid-container bio" id="section-bio">
+     
     <div class="grid-x grid-padding-x">
         <div class="cell medium-8">
         <h2>Nice To Meet You</h2>
@@ -52,14 +54,13 @@
         <p>At The Shipyard, I've honed my existing skills and have expanded my abilities exponentially. My experience, confidence in my skills and abilities have been on the fast-track since joining the dev team at The Shipyard.  Feel free to contact me <a href="#contact">here</a> with any work inquiries or questions.</p>
         </div>
         <div class="cell medium-4 bio-pic">
-            <img src="img/me.jpg" alt="Mark Zeehandelar" width="250" height="250">
+            <img src="img/me.jpg" class="float-center" alt="Mark Zeehandelar" width="250" height="250">
         </div>
        
     </div>
-    <a name="top"></a>
   </div>
   
-  <div class="grid-container fluid top">
+  <div class="grid-container fluid top" id="section-top">
       
       <div class="grid-x grid-padding-x">
           <div class="cell medium-4">
@@ -134,8 +135,7 @@
       </div>
     </div>
   </div>
-  <div class="grid-container contact">
-      <a name="contact"></a>
+  <div class="grid-container contact" id="section-contact">
     <div class="grid-x grid-padding-x">
       <div class="cell medium-4">
         <h2>Contact</h2>

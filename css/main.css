@@ -5008,329 +5008,334 @@ a.thumbnail {
   .large-flex-dir-column-reverse {
     flex-direction: column-reverse; } }
 
-#one-page .top-bar {
-  background-color: rgba(0, 0, 0, 0.5); }
-  #one-page .top-bar .top-bar-left ul {
-    background-color: transparent;
-    list-style: none;
-    color: white; }
-    #one-page .top-bar .top-bar-left ul li {
-      padding-left: 30px;
-      font-size: 20px; }
-      #one-page .top-bar .top-bar-left ul li a {
-        color: white; }
-  #one-page .top-bar .top-bar-right ul {
-    background-color: transparent;
-    list-style: none;
-    color: white; }
-    #one-page .top-bar .top-bar-right ul li {
-      padding-left: 30px; }
-      #one-page .top-bar .top-bar-right ul li a {
-        color: white; }
-
-#one-page .header-scrolled {
-  background-color: red; }
-
-#one-page .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("/img/hero-bkg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  margin-top: -141px; }
-  @media print, screen and (min-width: 40em) {
-    #one-page .hero {
-      margin-top: -64px; } }
-  #one-page .hero .content {
-    padding-top: 100%; }
+#one-page {
+  font-family: 'Do Hyeon', sans-serif; }
+  #one-page .top-bar {
+    background-color: rgba(0, 0, 0, 0.5); }
+    #one-page .top-bar .top-bar-left ul {
+      background-color: transparent;
+      list-style: none;
+      color: white; }
+      #one-page .top-bar .top-bar-left ul li {
+        padding-left: 30px;
+        font-size: 20px; }
+        #one-page .top-bar .top-bar-left ul li a {
+          color: white; }
+    #one-page .top-bar .top-bar-right ul {
+      background-color: transparent;
+      list-style: none;
+      color: white; }
+      #one-page .top-bar .top-bar-right ul li {
+        padding-left: 30px; }
+        #one-page .top-bar .top-bar-right ul li a {
+          color: white; }
+  #one-page .header-scrolled {
+    background-color: red; }
+  #one-page .hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("/img/hero-bkg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: -141px; }
     @media print, screen and (min-width: 40em) {
-      #one-page .hero .content {
-        padding: 20%; } }
-    #one-page .hero .content span {
-      color: red; }
-    #one-page .hero .content h1 {
-      color: white;
-      text-align: center;
-      text-transform: uppercase; }
-
-#one-page .bio {
-  padding: 15px; }
-  @media print, screen and (min-width: 40em) {
-    #one-page .bio {
-      padding: 15px 0px; } }
-  #one-page .bio .bio-pic {
-    text-align: center; }
-  #one-page .bio h2 {
-    color: red; }
-
-#one-page .top {
-  background-color: black; }
-  @media print, screen and (min-width: 40em) {
-    #one-page .top {
-      background-color: black;
-      padding: 15px 45px 0px 45px; }
-      #one-page .top h2 {
-        color: red; }
-      #one-page .top p {
-        color: white; } }
-
-#one-page .bottom {
-  background-color: black; }
-  @media print, screen and (min-width: 40em) {
-    #one-page .bottom {
-      background-color: black;
-      padding: 0px 45px 15px 45px; } }
-
-#one-page .zoom-card {
-  height: 249px;
-  width: 100%;
-  overflow: hidden;
-  cursor: pointer;
-  display: inline-block;
-  margin-top: 10px;
-  position: relative; }
-  #one-page .zoom-card .zoom-card-background1 {
-    height: 100%;
+      #one-page .hero {
+        margin-top: -64px; } }
+    #one-page .hero .content {
+      padding-top: 100%; }
+      @media print, screen and (min-width: 40em) {
+        #one-page .hero .content {
+          padding: 20%; } }
+      #one-page .hero .content span {
+        color: red;
+        font-family: 'Do Hyeon', sans-serif; }
+      #one-page .hero .content h1 {
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Do Hyeon', sans-serif; }
+  #one-page .bio {
+    padding: 15px; }
+    @media print, screen and (min-width: 40em) {
+      #one-page .bio {
+        padding: 15px 0px; } }
+    #one-page .bio .bio-pic {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    #one-page .bio h2 {
+      color: red;
+      font-family: 'Do Hyeon', sans-serif; }
+  #one-page .top {
+    background-color: black; }
+    @media print, screen and (min-width: 40em) {
+      #one-page .top {
+        padding: 15px 45px 0px 45px; }
+        #one-page .top h2 {
+          color: red;
+          padding-left: 45px;
+          font-family: 'Do Hyeon', sans-serif; } }
+    #one-page .top p {
+      color: white; }
+      @media print, screen and (min-width: 40em) {
+        #one-page .top p {
+          background-color: black;
+          padding: 15px 45px 0px 45px; } }
+  #one-page .bottom {
+    background-color: black; }
+    @media print, screen and (min-width: 40em) {
+      #one-page .bottom {
+        padding: 0px 45px 15px 45px; } }
+  #one-page .zoom-card {
+    height: 249px;
     width: 100%;
-    position: relative;
-    background-position: center center;
-    background-size: cover;
-    background-image: url("/img/feazel.png");
-    background-repeat: no-repeat;
-    -ms-transform: scale(1);
-    -moz-transform: scale(1);
-    -webkit-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: all 0.35s ease-out;
-    -moz-transition: all 0.35s ease-out;
-    -o-transition: all 0.35s ease-out;
-    transition: all 0.35s ease-out; }
-    #one-page .zoom-card .zoom-card-background1:hover {
-      -ms-transform: scale(1.2);
-      -moz-transform: scale(1.2);
-      -webkit-transform: scale(1.2);
-      -o-transform: scale(1.2);
-      transform: scale(1.2);
-      -webkit-transition: all 3s ease-out;
-      -moz-transition: all 3s ease-out;
-      -o-transition: all 3s ease-out;
-      transition: all 3s ease-out; }
-    #one-page .zoom-card .zoom-card-background1:focus {
-      -ms-transform: scale(1.2);
-      -moz-transform: scale(1.2);
-      -webkit-transform: scale(1.2);
-      -o-transform: scale(1.2);
-      transform: scale(1.2);
-      -webkit-transition: all 3s ease-out;
-      -moz-transition: all 3s ease-out;
-      -o-transition: all 3s ease-out;
-      transition: all 3s ease-out; }
-  #one-page .zoom-card .zoom-card-background2 {
-    height: 100%;
-    width: 100%;
-    position: relative;
-    background-position: center center;
-    background-size: cover;
-    background-image: url("/img/Farm-to-truck.png");
-    background-repeat: no-repeat;
-    -ms-transform: scale(1);
-    -moz-transform: scale(1);
-    -webkit-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: all 0.35s ease-out;
-    -moz-transition: all 0.35s ease-out;
-    -o-transition: all 0.35s ease-out;
-    transition: all 0.35s ease-out; }
-    #one-page .zoom-card .zoom-card-background2:hover {
-      -ms-transform: scale(1.2);
-      -moz-transform: scale(1.2);
-      -webkit-transform: scale(1.2);
-      -o-transform: scale(1.2);
-      transform: scale(1.2);
-      -webkit-transition: all 3s ease-out;
-      -moz-transition: all 3s ease-out;
-      -o-transition: all 3s ease-out;
-      transition: all 3s ease-out; }
-    #one-page .zoom-card .zoom-card-background2:focus {
-      -ms-transform: scale(1.2);
-      -moz-transform: scale(1.2);
-      -webkit-transform: scale(1.2);
-      -o-transform: scale(1.2);
-      transform: scale(1.2);
-      -webkit-transition: all 3s ease-out;
-      -moz-transition: all 3s ease-out;
-      -o-transition: all 3s ease-out;
-      transition: all 3s ease-out; }
-  #one-page .zoom-card .zoom-card-background3 {
-    height: 100%;
-    width: 100%;
-    position: relative;
-    background-position: center center;
-    background-size: cover;
-    background-image: url("/img/elite-media.png");
-    background-repeat: no-repeat;
-    -ms-transform: scale(1);
-    -moz-transform: scale(1);
-    -webkit-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: all 0.35s ease-out;
-    -moz-transition: all 0.35s ease-out;
-    -o-transition: all 0.35s ease-out;
-    transition: all 0.35s ease-out; }
-    #one-page .zoom-card .zoom-card-background3:hover {
-      -ms-transform: scale(1.2);
-      -moz-transform: scale(1.2);
-      -webkit-transform: scale(1.2);
-      -o-transform: scale(1.2);
-      transform: scale(1.2);
-      -webkit-transition: all 3s ease-out;
-      -moz-transition: all 3s ease-out;
-      -o-transition: all 3s ease-out;
-      transition: all 3s ease-out; }
-    #one-page .zoom-card .zoom-card-background3:focus {
-      -ms-transform: scale(1.2);
-      -moz-transform: scale(1.2);
-      -webkit-transform: scale(1.2);
-      -o-transform: scale(1.2);
-      transform: scale(1.2);
-      -webkit-transition: all 3s ease-out;
-      -moz-transition: all 3s ease-out;
-      -o-transition: all 3s ease-out;
-      transition: all 3s ease-out; }
-  #one-page .zoom-card .zoom-card-background4 {
-    height: 100%;
-    width: 100%;
-    position: relative;
-    background-position: center center;
-    background-size: cover;
-    background-image: url("/img/marine-layer.png");
-    background-repeat: no-repeat;
-    -ms-transform: scale(1);
-    -moz-transform: scale(1);
-    -webkit-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: all 0.35s ease-out;
-    -moz-transition: all 0.35s ease-out;
-    -o-transition: all 0.35s ease-out;
-    transition: all 0.35s ease-out; }
-    #one-page .zoom-card .zoom-card-background4:hover {
-      -ms-transform: scale(1.2);
-      -moz-transform: scale(1.2);
-      -webkit-transform: scale(1.2);
-      -o-transform: scale(1.2);
-      transform: scale(1.2);
-      -webkit-transition: all 3s ease-out;
-      -moz-transition: all 3s ease-out;
-      -o-transition: all 3s ease-out;
-      transition: all 3s ease-out; }
-    #one-page .zoom-card .zoom-card-background4:focus {
-      -ms-transform: scale(1.2);
-      -moz-transform: scale(1.2);
-      -webkit-transform: scale(1.2);
-      -o-transform: scale(1.2);
-      transform: scale(1.2);
-      -webkit-transition: all 3s ease-out;
-      -moz-transition: all 3s ease-out;
-      -o-transition: all 3s ease-out;
-      transition: all 3s ease-out; }
-  #one-page .zoom-card .zoom-card-background5 {
-    height: 100%;
-    width: 100%;
-    position: relative;
-    background-position: center center;
-    background-size: cover;
-    background-image: url("/img/pet-butler.png");
-    background-repeat: no-repeat;
-    -ms-transform: scale(1);
-    -moz-transform: scale(1);
-    -webkit-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: all 0.35s ease-out;
-    -moz-transition: all 0.35s ease-out;
-    -o-transition: all 0.35s ease-out;
-    transition: all 0.35s ease-out; }
-    #one-page .zoom-card .zoom-card-background5:hover {
-      -ms-transform: scale(1.2);
-      -moz-transform: scale(1.2);
-      -webkit-transform: scale(1.2);
-      -o-transform: scale(1.2);
-      transform: scale(1.2);
-      -webkit-transition: all 3s ease-out;
-      -moz-transition: all 3s ease-out;
-      -o-transition: all 3s ease-out;
-      transition: all 3s ease-out; }
-    #one-page .zoom-card .zoom-card-background5:focus {
-      -ms-transform: scale(1.2);
-      -moz-transform: scale(1.2);
-      -webkit-transform: scale(1.2);
-      -o-transform: scale(1.2);
-      transform: scale(1.2);
-      -webkit-transition: all 3s ease-out;
-      -moz-transition: all 3s ease-out;
-      -o-transition: all 3s ease-out;
-      transition: all 3s ease-out; }
-  #one-page .zoom-card .zoom-card-background6 {
-    height: 100%;
-    width: 100%;
-    position: relative;
-    background-position: center center;
-    background-size: cover;
-    background-image: url("/img/spring-green.png");
-    background-repeat: no-repeat;
-    -ms-transform: scale(1);
-    -moz-transform: scale(1);
-    -webkit-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: all 0.35s ease-out;
-    -moz-transition: all 0.35s ease-out;
-    -o-transition: all 0.35s ease-out;
-    transition: all 0.35s ease-out; }
-    #one-page .zoom-card .zoom-card-background6:hover {
-      -ms-transform: scale(1.2);
-      -moz-transform: scale(1.2);
-      -webkit-transform: scale(1.2);
-      -o-transform: scale(1.2);
-      transform: scale(1.2);
-      -webkit-transition: all 3s ease-out;
-      -moz-transition: all 3s ease-out;
-      -o-transition: all 3s ease-out;
-      transition: all 3s ease-out; }
-    #one-page .zoom-card .zoom-card-background6:focus {
-      -ms-transform: scale(1.2);
-      -moz-transform: scale(1.2);
-      -webkit-transform: scale(1.2);
-      -o-transform: scale(1.2);
-      transform: scale(1.2);
-      -webkit-transition: all 3s ease-out;
-      -moz-transition: all 3s ease-out;
-      -o-transition: all 3s ease-out;
-      transition: all 3s ease-out; }
-  #one-page .zoom-card .zoom-card-caption {
-    position: absolute;
-    width: 100%;
-    bottom: 0px;
-    background-color: #C0C0C0;
-    color: black;
-    padding: 15px 20px;
-    text-align: center; }
-    #one-page .zoom-card .zoom-card-caption a {
-      padding: 0px;
-      margin: 0px;
-      line-height: 1.5em;
-      color: black; }
-  #one-page .zoom-card .portfolio {
-    padding: 20px 0px;
-    background: black; }
-
-#one-page .contact {
-  padding: 15px; }
-  @media print, screen and (min-width: 40em) {
-    #one-page .contact {
-      padding: 15px 0px; } }
-  #one-page .contact h2 {
-    color: red; }
+    overflow: hidden;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 10px;
+    position: relative; }
+    #one-page .zoom-card .zoom-card-background1 {
+      height: 100%;
+      width: 100%;
+      position: relative;
+      background-position: center center;
+      background-size: cover;
+      background-image: url("/img/feazel.png");
+      background-repeat: no-repeat;
+      -ms-transform: scale(1);
+      -moz-transform: scale(1);
+      -webkit-transform: scale(1);
+      -o-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition: all 0.35s ease-out;
+      -moz-transition: all 0.35s ease-out;
+      -o-transition: all 0.35s ease-out;
+      transition: all 0.35s ease-out; }
+      #one-page .zoom-card .zoom-card-background1:hover {
+        -ms-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transform: scale(1.2);
+        -webkit-transition: all 3s ease-out;
+        -moz-transition: all 3s ease-out;
+        -o-transition: all 3s ease-out;
+        transition: all 3s ease-out; }
+      #one-page .zoom-card .zoom-card-background1:focus {
+        -ms-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transform: scale(1.2);
+        -webkit-transition: all 3s ease-out;
+        -moz-transition: all 3s ease-out;
+        -o-transition: all 3s ease-out;
+        transition: all 3s ease-out; }
+    #one-page .zoom-card .zoom-card-background2 {
+      height: 100%;
+      width: 100%;
+      position: relative;
+      background-position: center center;
+      background-size: cover;
+      background-image: url("/img/Farm-to-truck.png");
+      background-repeat: no-repeat;
+      -ms-transform: scale(1);
+      -moz-transform: scale(1);
+      -webkit-transform: scale(1);
+      -o-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition: all 0.35s ease-out;
+      -moz-transition: all 0.35s ease-out;
+      -o-transition: all 0.35s ease-out;
+      transition: all 0.35s ease-out; }
+      #one-page .zoom-card .zoom-card-background2:hover {
+        -ms-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transform: scale(1.2);
+        -webkit-transition: all 3s ease-out;
+        -moz-transition: all 3s ease-out;
+        -o-transition: all 3s ease-out;
+        transition: all 3s ease-out; }
+      #one-page .zoom-card .zoom-card-background2:focus {
+        -ms-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transform: scale(1.2);
+        -webkit-transition: all 3s ease-out;
+        -moz-transition: all 3s ease-out;
+        -o-transition: all 3s ease-out;
+        transition: all 3s ease-out; }
+    #one-page .zoom-card .zoom-card-background3 {
+      height: 100%;
+      width: 100%;
+      position: relative;
+      background-position: center center;
+      background-size: cover;
+      background-image: url("/img/elite-media.png");
+      background-repeat: no-repeat;
+      -ms-transform: scale(1);
+      -moz-transform: scale(1);
+      -webkit-transform: scale(1);
+      -o-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition: all 0.35s ease-out;
+      -moz-transition: all 0.35s ease-out;
+      -o-transition: all 0.35s ease-out;
+      transition: all 0.35s ease-out; }
+      #one-page .zoom-card .zoom-card-background3:hover {
+        -ms-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transform: scale(1.2);
+        -webkit-transition: all 3s ease-out;
+        -moz-transition: all 3s ease-out;
+        -o-transition: all 3s ease-out;
+        transition: all 3s ease-out; }
+      #one-page .zoom-card .zoom-card-background3:focus {
+        -ms-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transform: scale(1.2);
+        -webkit-transition: all 3s ease-out;
+        -moz-transition: all 3s ease-out;
+        -o-transition: all 3s ease-out;
+        transition: all 3s ease-out; }
+    #one-page .zoom-card .zoom-card-background4 {
+      height: 100%;
+      width: 100%;
+      position: relative;
+      background-position: center center;
+      background-size: cover;
+      background-image: url("/img/marine-layer.png");
+      background-repeat: no-repeat;
+      -ms-transform: scale(1);
+      -moz-transform: scale(1);
+      -webkit-transform: scale(1);
+      -o-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition: all 0.35s ease-out;
+      -moz-transition: all 0.35s ease-out;
+      -o-transition: all 0.35s ease-out;
+      transition: all 0.35s ease-out; }
+      #one-page .zoom-card .zoom-card-background4:hover {
+        -ms-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transform: scale(1.2);
+        -webkit-transition: all 3s ease-out;
+        -moz-transition: all 3s ease-out;
+        -o-transition: all 3s ease-out;
+        transition: all 3s ease-out; }
+      #one-page .zoom-card .zoom-card-background4:focus {
+        -ms-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transform: scale(1.2);
+        -webkit-transition: all 3s ease-out;
+        -moz-transition: all 3s ease-out;
+        -o-transition: all 3s ease-out;
+        transition: all 3s ease-out; }
+    #one-page .zoom-card .zoom-card-background5 {
+      height: 100%;
+      width: 100%;
+      position: relative;
+      background-position: center center;
+      background-size: cover;
+      background-image: url("/img/pet-butler.png");
+      background-repeat: no-repeat;
+      -ms-transform: scale(1);
+      -moz-transform: scale(1);
+      -webkit-transform: scale(1);
+      -o-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition: all 0.35s ease-out;
+      -moz-transition: all 0.35s ease-out;
+      -o-transition: all 0.35s ease-out;
+      transition: all 0.35s ease-out; }
+      #one-page .zoom-card .zoom-card-background5:hover {
+        -ms-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transform: scale(1.2);
+        -webkit-transition: all 3s ease-out;
+        -moz-transition: all 3s ease-out;
+        -o-transition: all 3s ease-out;
+        transition: all 3s ease-out; }
+      #one-page .zoom-card .zoom-card-background5:focus {
+        -ms-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transform: scale(1.2);
+        -webkit-transition: all 3s ease-out;
+        -moz-transition: all 3s ease-out;
+        -o-transition: all 3s ease-out;
+        transition: all 3s ease-out; }
+    #one-page .zoom-card .zoom-card-background6 {
+      height: 100%;
+      width: 100%;
+      position: relative;
+      background-position: center center;
+      background-size: cover;
+      background-image: url("/img/spring-green.png");
+      background-repeat: no-repeat;
+      -ms-transform: scale(1);
+      -moz-transform: scale(1);
+      -webkit-transform: scale(1);
+      -o-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition: all 0.35s ease-out;
+      -moz-transition: all 0.35s ease-out;
+      -o-transition: all 0.35s ease-out;
+      transition: all 0.35s ease-out; }
+      #one-page .zoom-card .zoom-card-background6:hover {
+        -ms-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transform: scale(1.2);
+        -webkit-transition: all 3s ease-out;
+        -moz-transition: all 3s ease-out;
+        -o-transition: all 3s ease-out;
+        transition: all 3s ease-out; }
+      #one-page .zoom-card .zoom-card-background6:focus {
+        -ms-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transform: scale(1.2);
+        -webkit-transition: all 3s ease-out;
+        -moz-transition: all 3s ease-out;
+        -o-transition: all 3s ease-out;
+        transition: all 3s ease-out; }
+    #one-page .zoom-card .zoom-card-caption {
+      position: absolute;
+      width: 100%;
+      bottom: 0px;
+      background-color: #C0C0C0;
+      color: black;
+      padding: 15px 20px;
+      text-align: center; }
+      #one-page .zoom-card .zoom-card-caption a {
+        padding: 0px;
+        margin: 0px;
+        line-height: 1.5em;
+        color: black; }
+    #one-page .zoom-card .portfolio {
+      padding: 20px 0px;
+      background: black; }
+  #one-page .contact {
+    padding: 15px; }
+    @media print, screen and (min-width: 40em) {
+      #one-page .contact {
+        padding: 15px 0px; } }
+    #one-page .contact h2 {
+      color: red;
+      font-family: 'Do Hyeon', sans-serif; }
