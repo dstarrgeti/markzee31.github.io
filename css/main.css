@@ -5010,6 +5010,9 @@ a.thumbnail {
 
 #one-page {
   font-family: 'Do Hyeon', sans-serif; }
+  #one-page h2 {
+    font-family: 'Do Hyeon', sans-serif;
+    color: red; }
   #one-page .top-bar {
     background-color: rgba(0, 0, 0, 0.5); }
     #one-page .top-bar .top-bar-left ul {

@@ -1,5 +1,9 @@
 #one-page{
    font-family: 'Do Hyeon', sans-serif;
+   h2{
+     font-family: 'Do Hyeon', sans-serif;
+     color: red;
+   }
 
     .top-bar{
       // position: fixed;
@@ -36,7 +40,7 @@
     }
   }
 .header-scrolled{
-  background-color: rgba(255,0,0, .5)
+  background-color: rgba(255,0,0, .5);
 }
   
   .hero {
