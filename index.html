@@ -6,58 +6,68 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MZPortfolio</title>
   <link rel="stylesheet" type="text/css" href="./css/main.css">
-  <!-- font awesome -->
-  <script defer src="js/vendor/fontawesome-all.js"></script>
 </head>
 <body>
 <!-- start of body -->
 
 <div id="one-page">
-  
-
   <!-- hero -->
-  <section class="grid-x hero">
-      <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
-          <button class="menu-icon" type="button" data-toggle="example-menu"></button>
+  <div class="grid-container full nav data-sticky-container"> 
+      <div class="title-bar" data-responsive-toggle="mz-menu" data-hide-for="medium">
+          <button class="menu-icon" type="button" data-toggle="mz-menu"></button>
           <div class="title-bar-title">Menu</div>
         </div>
         
-        <div class="top-bar" id="example-menu">
+        <div class="top-bar is-stuck" data-sticky data-options="anchor: page; marginTop:0;" style="width:100%" data-top-anchor="1" id="mz-menu">
           <div class="top-bar-left">
             <ul class="title">
-              <li class="menu-text">Site Title</li>
+              <li class="menu-text">Mark Zeehandelar Portfolio</li>
             </ul>
           </div>
           <div class="top-bar-right">
            <ul class="dropdown menu" data-dropdown-menu>
               <li>
-                <a href="#0">One</a>
+                <a href="#bio">Nice to Meet You</a>
               </li>
-              <li><a href="#0">Two</a></li>
-              <li><a href="#0">Three</a></li>
+              <li><a href="#top">My Work</a></li>
+              <li><a href="#contact">Holler</a></li>
             </ul>
           </div>
-        </div>
-        
+        </div>      
+  </div>
+  <div class="grid-container fluid hero">
       <div class="cell content">
           <h1>Hello, I'm <span>Mark Zeehandelar</span></h1> <br>
           <h1>I'm a front end developer</h1>
       </div>
-  </section>
-  <div class="grid-container">
-  <div class="grid-x grid-margin-x">
-    <div class="cell medium-8">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et faucibus enim, nec imperdiet ligula. Proin auctor venenatis nibh ultricies placerat. Praesent vitae velit scelerisque risus dictum convallis. Sed ultricies erat a libero scelerisque, sit amet accumsan nunc eleifend. Duis auctor arcu ac risus placerat commodo. Donec sagittis, justo et convallis posuere, justo augue lobortis quam, sed rhoncus nisl tellus eget purus. Sed ac mi sit amet magna euismod ultrices. Maecenas quis ex et enim gravida ullamcorper eget sagittis lorem. Quisque dictum elit eu odio rutrum pellentesque.</p>
+  </div>
+  <div class="grid-container bio">
+      <a name="bio"></a>
+    <div class="grid-x grid-padding-x">
+        <div class="cell medium-8">
+        <h2>Nice To Meet You</h2>
+        <p>Born and raised in Columbus, Ohio, I have a strong connection with this city and helping maintain our power as "the biggest little city" in the country. Upon graduation from Saint Charles Prep, I left town to attend Marshall University in Huntington, WV. I played lacrosse and received my BBA in Economics and Marketing.</p>
 
-      <p>Ut vitae nisl nec diam pharetra ullamcorper ac sit amet est. Quisque quis semper eros. Phasellus ac quam at orci fringilla molestie in vitae odio. Morbi nec risus ante. Nullam feugiat vehicula odio, in lobortis est finibus et. Maecenas id mi ut tortor egestas volutpat. Pellentesque finibus justo vitae dolor mattis vehicula.</p>
+        <p>After five years of being an accountant, I decided I needed a change. After a year of training from an established developer, I decided to attend the Web Development program at Columbus State. While in school, I began working on sites for small businesses in Columbus, Phoenix and Denver. Upon completion of the in-class course work at Columbus State, I started an internship at The Shipyard, a design agency located in Columbus, OH.</p>
+        <p>At The Shipyard, I've honed my existing skills and have expanded my abilities exponentially. My experience, confidence in my skills and abilities have been on the fast-track since joining the dev team at The Shipyard.  Feel free to contact me <a href="#contact">here</a> with any work inquiries or questions.</p>
+        </div>
+        <div class="cell medium-4 bio-pic">
+            <img src="img/me.jpg" alt="Mark Zeehandelar" width="250" height="250">
+        </div>
+       
     </div>
-    <div class="cell medium-4">
-        <img src="img/me.jpg" alt="Mark Zeehandelar" width="250" height="250">
-    </div>
+    <a name="top"></a>
   </div>
-  </div>
-  <div class="grid-container">
-    <div class="grid-x grid-margin-x">
+  
+  <div class="grid-container fluid top">
+      
+      <div class="grid-x grid-padding-x">
+          <div class="cell medium-4">
+            <h2>Portofilio</h2>
+            <p>Here's a selection of work that I've had an instrumental part in completion.  The work you see here is mostly mine. Fill out the form <a href="#contact">here</a> with any questions.</p>
+          </div>
+      </div>
+    <div class="grid-x grid-padding-x">
       <div class="cell medium-4">
           <div class="zoom-card">
               <div class="zoom-card-background1" >
@@ -90,8 +100,8 @@
       </div>
     </div>
   </div>
-  <div class="grid-container">
-    <div class="grid-x grid-margin-x">
+  <div class="grid-container fluid bottom">
+    <div class="grid-x grid-padding-x">
       <div class="cell medium-4">
           <div class="zoom-card">
               <div class="zoom-card-background4" >
@@ -124,15 +134,51 @@
       </div>
     </div>
   </div>
+  <div class="grid-container contact">
+      <a name="contact"></a>
+    <div class="grid-x grid-padding-x">
+      <div class="cell medium-4">
+        <h2>Contact</h2>
+        <p>Please feel free to contact me with any questions, concerns or work inquiries.</p>
+        <p>536 Olentangy St <br>
+           Columbus, OH 43202<br>
+           <a href="mailto:mark@soapboxintegration.com">mark@soapboxintegration.com</a>
+          </p>
+      </div>
+      <div class="cell medium-8">
+            <form action="mailto:markzee31@hotmail.com" method="post" enctype="text/plain">
+             <div class="medium-12 cell">
+              <label>Name
+                <input type="text" name="name" placeholder="First and Last Name">
+              </label>
+             </div>
+             <div class="medium-12 cell">
+                <label>E-Mail Address
+                 <input type="email" name="e-mail" placeholder="E-Mail Address">
+                </label>
+             </div>
+             <div class="medium-12 cell">
+                <label>
+                    What do you want to talk about?
+                    <textarea rows="8" name="comment" placeholder="Provide a brief description of what you'd like to talk about and I'll get back to you shortly."></textarea>
+                <label>
+             </div>
+             <input type="submit" value="Send">
+            </form>
+        
+      </div>
+    </div>
+  </div>
   </div>
   
 
 <!-- end of my body -->
 <!-- scripts -->
-<script src="js/vendor/jquery.js"></script>
-<script src="js/vendor/what-input.js"></script>
-<script src="js/vendor/foundation.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"></script>
+<script src="js/vendor/jquery.sticky.js"></script>
 <script src="js/app.js"></script>
+
 
 <script id="__bs_script__">//<![CDATA[
   document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.23.6'><\/script>".replace("HOST", location.hostname));

@@ -5008,20 +5008,77 @@ a.thumbnail {
   .large-flex-dir-column-reverse {
     flex-direction: column-reverse; } }
 
+#one-page .top-bar {
+  background-color: rgba(0, 0, 0, 0.5); }
+  #one-page .top-bar .top-bar-left ul {
+    background-color: transparent;
+    list-style: none;
+    color: white; }
+    #one-page .top-bar .top-bar-left ul li {
+      padding-left: 30px;
+      font-size: 20px; }
+      #one-page .top-bar .top-bar-left ul li a {
+        color: white; }
+  #one-page .top-bar .top-bar-right ul {
+    background-color: transparent;
+    list-style: none;
+    color: white; }
+    #one-page .top-bar .top-bar-right ul li {
+      padding-left: 30px; }
+      #one-page .top-bar .top-bar-right ul li a {
+        color: white; }
+
+#one-page .header-scrolled {
+  background-color: red; }
+
 #one-page .hero {
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("/img/hero-bkg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh; }
-  #one-page .hero .menu {
-    top: 0px;
-    right: 0px; }
-  #one-page .hero .content span {
+  height: 100vh;
+  margin-top: -141px; }
+  @media print, screen and (min-width: 40em) {
+    #one-page .hero {
+      margin-top: -64px; } }
+  #one-page .hero .content {
+    padding-top: 100%; }
+    @media print, screen and (min-width: 40em) {
+      #one-page .hero .content {
+        padding: 20%; } }
+    #one-page .hero .content span {
+      color: red; }
+    #one-page .hero .content h1 {
+      color: white;
+      text-align: center;
+      text-transform: uppercase; }
+
+#one-page .bio {
+  padding: 15px; }
+  @media print, screen and (min-width: 40em) {
+    #one-page .bio {
+      padding: 15px 0px; } }
+  #one-page .bio .bio-pic {
+    text-align: center; }
+  #one-page .bio h2 {
     color: red; }
-  #one-page .hero .content h1 {
-    color: white;
-    text-align: center;
-    text-transform: uppercase; }
+
+#one-page .top {
+  background-color: black; }
+  @media print, screen and (min-width: 40em) {
+    #one-page .top {
+      background-color: black;
+      padding: 15px 45px 0px 45px; }
+      #one-page .top h2 {
+        color: red; }
+      #one-page .top p {
+        color: white; } }
+
+#one-page .bottom {
+  background-color: black; }
+  @media print, screen and (min-width: 40em) {
+    #one-page .bottom {
+      background-color: black;
+      padding: 0px 45px 15px 45px; } }
 
 #one-page .zoom-card {
   height: 249px;
@@ -5257,7 +5314,7 @@ a.thumbnail {
     position: absolute;
     width: 100%;
     bottom: 0px;
-    background-color: #fff;
+    background-color: #C0C0C0;
     color: black;
     padding: 15px 20px;
     text-align: center; }
@@ -5269,3 +5326,11 @@ a.thumbnail {
   #one-page .zoom-card .portfolio {
     padding: 20px 0px;
     background: black; }
+
+#one-page .contact {
+  padding: 15px; }
+  @media print, screen and (min-width: 40em) {
+    #one-page .contact {
+      padding: 15px 0px; } }
+  #one-page .contact h2 {
+    color: red; }

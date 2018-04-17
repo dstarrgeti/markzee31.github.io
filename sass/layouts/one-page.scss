@@ -1,5 +1,45 @@
 #one-page{
+    .top-bar{
+      // position: fixed;
+      background-color: rgba(0, 0, 0, .5);
+      .top-bar-left{
+        // background: rgba(0, 0, 0, .0);
+      
+      ul{
+        background-color: transparent;
+        list-style: none;
+        color: white;
+        li {
+          padding-left: 30px;
+          font-size: 20px;
+          a{
+          color: white;
+          }
+        }
+      }
+    }
+    .top-bar-right{
+      // background-color: rgba(0, 0, 0, .0);
+    
+      ul{
+        background-color: transparent;
+        list-style: none;
+        color: white;
+        li {
+          padding-left: 30px;
+          a{
+          color: white;
+          }
+        }
+      }
+    }
+  }
+.header-scrolled{
+  background-color: red;
+}
+  
   .hero {
+    
       background:  linear-gradient(
       rgba(0, 0, 0, 0.75), 
       rgba(0, 0, 0, 0.75)
@@ -8,11 +48,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    .menu{
-      top: 0px;
-      right: 0px;
+    margin-top: -141px;
+    @include breakpoint (medium){
+      margin-top: -64px;
     }
-      .content{
+      .content{        
+        padding-top: 100%;
+        @include breakpoint (medium){
+          padding: 20%; }
         span{
           color: red;
         }
@@ -24,6 +67,39 @@
   } 
   
 }
+.bio{
+    
+  padding: 15px;
+  @include breakpoint (medium){
+    padding: 15px 0px; }
+.bio-pic{
+  text-align: center;
+}
+h2{
+  color: red;
+}
+}
+ .top {
+  background-color: black;
+  @include breakpoint (medium){
+  background-color: black;
+  padding: 15px 45px 0px 45px;
+    h2{
+      color: red;
+    }
+    p{
+      color:white;
+    }
+  }
+}
+ .bottom{
+  background-color: black;
+  @include breakpoint (medium){
+  background-color: black;
+  padding: 0px 45px 15px 45px;
+  }
+}
+
 .zoom-card {
   height:249px;
   width: 100%;
@@ -283,7 +359,7 @@
       position: absolute;
       width: 100%;
       bottom:0px;
-      background-color: #fff;
+      background-color: #C0C0C0;
       color: black;
       padding:15px 20px;      
       text-align: center;
@@ -295,12 +371,20 @@
         color: black;
       }
     }
+    
   .portfolio {
     padding: 20px 0px;
     background: black;
   }
 }
-
+.contact{
+  padding: 15px;
+  @include breakpoint (medium){
+    padding: 15px 0px; }
+    h2{
+      color: red;
+    }
+}
 
 
 
