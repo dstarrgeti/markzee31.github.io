@@ -5030,7 +5030,7 @@ a.thumbnail {
         #one-page .top-bar .top-bar-right ul li a {
           color: white; }
   #one-page .header-scrolled {
-    background-color: red; }
+    background-color: rgba(255, 0, 0, 0.5); }
   #one-page .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("/img/hero-bkg.jpg");
     background-repeat: no-repeat;
